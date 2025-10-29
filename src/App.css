@@ -1,0 +1,378 @@
+
+
+.title{
+    color: maroon;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 100px;
+
+    font-size: 78px;
+
+    
+}
+
+.story{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+   
+   
+    display: inline-block;
+    width: 400px;
+    text-align: right;
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 300px;
+   
+
+}
+.story::first-letter{
+    font-size: 3em;
+    
+}
+
+body{
+    background-image: url("B-IMG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    
+
+}
+
+.footer {
+  background-color: #111;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer p:first-child {
+  font-weight: bold;
+  color: #d4af37; /* gold color for restaurant touch */
+}
+
+.menu-item{
+  background: linear-gradient(rgb(59, 59, 59), rgb(0, 0, 0) );
+  color: white;
+  display: inline-block;
+  gap: 20px;
+  margin-right: 20px;
+  padding: 30px;
+  margin-top: 20px;
+  border: gold 1px solid;
+  box-shadow: gold;
+}
+
+.Menu{
+  color: white;
+}
+
+.select{
+  background-color:gold;
+  color: black;
+  border: black;
+  width: 5cm;
+  height: 20px;
+  margin-bottom: 15px;
+
+
+
+
+}
+
+.Add{
+  background-color: #111;
+  border: gold;
+  color: gold;
+  width: 2cm;
+
+}
+.Add:hover{
+  background-color: gold;
+  color: black;
+  transition: scale(1.1);
+  width: 2cm;
+
+}
+
+
+
+.removebtn{
+  background-color: #111;
+  border: gold;
+  color: gold;
+  margin-left: 5px;
+  width: 100px;
+  height: 30px;
+  margin-left: 100px;
+  
+  
+}
+.removebtn:hover{
+  background-color: gold;
+  color: black;
+  
+
+}
+
+
+.Cart1{
+  background-color: #111;
+  color: gold;
+  border: 1px gold solid;
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  padding-left: 10px;
+  
+
+}
+
+.placeorder{
+  background-color: #111;
+  border: gold;
+  color: gold;
+  margin-left: 5px;
+  width: 100px;
+  height: 30px;
+
+
+}
+
+.placeorder:hover{
+  background-color: gold;
+  color: black;
+}
+
+.Book {
+  background-color: black;
+  color: gold;
+  text-align: left;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 300px;
+  font-size: 25px;
+
+}
+.Book {
+background-color: #000;
+color: gold;
+width: 350px;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+margin-top: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: left;
+padding-bottom: 80px;
+}
+
+.Book h2 {
+text-align: center;
+margin-bottom: 20px;
+color: gold;
+}
+
+.Book label {
+display: block;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+.Book input {
+width: 90%;
+padding: 8px;
+border: 1px solid gold;
+border-radius: 5px;
+background-color: #111;
+color: gold;
+outline: none;
+}
+
+.Book input:focus {
+border-color: #ffd700;
+box-shadow: 0 0 5px gold;
+}
+
+.Book button {
+margin-top: 20px;
+padding: 10px 15px;
+background-color: gold;
+border: none;
+border-radius: 5px;
+color: black;
+font-weight: bold;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.Book button:hover {
+background-color: #ffdf00;
+transform: scale(1.05);
+}
+
+
+.AdminDashboard {
+background-color: black;
+color: gold;
+border: 2px solid gold;
+border-radius: 10px;
+width: 80%;
+margin: 40px auto;
+padding: 30px;
+font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+/* Title and section headers */
+.AdminDashboard h2 {
+text-align: center;
+margin-bottom: 25px;
+font-size: 32px;
+text-shadow: 0 0 5px gold;
+}
+
+.AdminDashboard h3 {
+border-bottom: 1px solid gold;
+padding-bottom: 5px;
+margin-top: 30px;
+font-size: 24px;
+}
+
+/* Form for adding new menu item */
+.AdminDashboard input,
+.AdminDashboard select {
+background-color: #222;
+color: gold;
+border: 1px solid gold;
+border-radius: 5px;
+padding: 8px;
+margin: 6px;
+width: 200px;
+font-size: 15px;
+outline: none;
+transition: 0.3s;
+}
+
+.AdminDashboard input:focus,
+.AdminDashboard select:focus {
+background-color: #333;
+border-color: #ffdf00;
+}
+
+.AdminDashboard button {
+background-color: gold;
+color: black;
+font-weight: bold;
+border: none;
+border-radius: 5px;
+padding: 10px 16px;
+margin-left: 6px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.AdminDashboard button:hover {
+background-color: #ffdf00;
+transform: scale(1.05);
+}
+
+/* Orders and reservations list */
+.AdminDashboard div {
+margin-top: 10px;
+}
+
+.AdminDashboard .order-item,
+.AdminDashboard .reservation-item {
+background-color: #222;
+border: 1px solid gold;
+border-radius: 5px;
+padding: 10px;
+margin: 8px 0;
+color: white;
+font-size: 18px;
+}
+
+
+.Analytics {
+background-color: #111;
+color: gold;
+border: 2px solid gold;
+border-radius: 10px;
+width: 60%;
+margin: 30px auto;
+padding: 25px;
+font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+text-align: center;
+}
+
+/* Headings */
+.Analytics h2 {
+font-size: 32px;
+text-shadow: 0 0 5px gold;
+margin-bottom: 15px;
+}
+
+.Analytics h3 {
+font-size: 24px;
+border-bottom: 1px solid gold;
+padding-bottom: 5px;
+margin-top: 25px;
+}
+
+/* Paragraph styling */
+.Analytics p {
+font-size: 20px;
+color: white;
+margin: 10px 0;
+}
+
+/* List of popular items */
+.Analytics ul {
+list-style: none;
+padding: 0;
+margin-top: 15px;
+}
+
+.Analytics li {
+background-color: #222;
+border: 1px solid gold;
+border-radius: 6px;
+padding: 10px;
+margin: 8px auto;
+width: 80%;
+color: white;
+font-size: 18px;
+transition: transform 0.3s, background-color 0.3s;
+}
+
+.Analytics li:hover {
+background-color: gold;
+color: black;
+transform: scale(1.03);
+}
